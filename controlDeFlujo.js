@@ -1,4 +1,4 @@
-function viajar(destino) {
+/* function viajar(destino) {
     if (destino === "Brasil") {
         console.log("Gire a la IZQUIERDA");
     } else if (destino === "Argentina") {
@@ -9,3 +9,14 @@ function viajar(destino) {
 }
 
 viajar("PRUEBA");
+ */
+
+function puedeManejar(edad) {
+    if (edad >= 18) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+}
+
+puedeManejar('18');
